@@ -1,4 +1,4 @@
-import { get, isFunction, isUndefined, isString, isValidString, isPlainObject } from "@kubric/litedash";
+import { get, isFunction, isUndefined, isString, isValidString, isPlainObject } from "@kubric/utils";
 
 export default class FeatureGates {
   static initialized = false;
