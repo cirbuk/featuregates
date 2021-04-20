@@ -5,7 +5,7 @@ import { terser } from "rollup-plugin-terser";
 import json from '@rollup/plugin-json';
 import pkg from './package.json';
 
-const externalSet = new Set(["@kubric/litedash"]);
+const externalSet = new Set(["@kubric/utils"]);
 
 export default [{
   input: 'src/index.js',
