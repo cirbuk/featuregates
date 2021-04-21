@@ -104,7 +104,9 @@ export default class FeatureGates {
           return acc;
         }, {});
     }
-    return this.featureGates;
+
+    // deep-copy the response object to prevent mutability to original object in use
+    return JSON.parse(JSON.stringify(this.featureGates));
   }
 
   set(gates, shouldTranslate = true) {
