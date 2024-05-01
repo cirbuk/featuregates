@@ -1,6 +1,6 @@
 {
   "name": "@kubric/featuregates",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Firestore backed feature gates",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -45,6 +45,6 @@
     "rollup-plugin-terser": "6.1.0"
   },
   "peerDependencies": {
-    "@kubric/utils": "^1.0.1"
+    "@kubric/utils": "*"
   }
 }
